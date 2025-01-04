@@ -1,0 +1,10 @@
+services:
+  hugo-nginx:
+    command: ["nginx", "-g", "daemon off;"]
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      HUGO_BASEURL: localhost
+    ports:
+      - 8080:80
