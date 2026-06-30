@@ -1,7 +1,7 @@
 ---
 date: "2025-01-04T21:28:30+01:00"
 title: "Automating SONiC switch provisioning and management with NetBox as a central source"
-tags: ["SONiC", "SCS", "netbox"]
+tags: ["sonic", "scs", "netbox"]
 ---
 
 Automating network infrastructure is essential for improving efficiency, scalability, and accuracy, particularly in

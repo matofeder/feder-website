@@ -2,7 +2,7 @@
 
 baseurl      = "localhost"
 title   = "m.feder"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 theme = "hello-friend-ng"
 
 copyright = "This work is licensed under an Apache License Version 2.0." # This message is only used by the RSS template.
@@ -26,6 +26,11 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
+
+[languages.en]
+  label = "English"
+  weight = 1
+  locale = "en_US"
 
 [pagination]
   disableAliases = false
@@ -67,7 +72,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "open source enthusiast | passionate about cloud | rarely active sportsman"
+  homeSubtitle = "passionate about technology | rarely active sportsman"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -123,7 +128,7 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content.
   #
   [params.footer]
-    trademark = 2024
+    trademark = 2026
     author = true
     topText = []
     bottomText = []
