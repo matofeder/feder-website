@@ -263,3 +263,9 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "posts"
     url        = "posts/"
+
+# https://gohugo.io/host-and-deploy/host-on-github-pages/
+# Change the location of the image cache to the cacheDir
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
